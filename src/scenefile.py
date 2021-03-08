@@ -4,6 +4,7 @@ from pymel.core.system import Path
 
 log = logging.getLogger(__name__)
 
+
 class SceneFile(object):
     """An abstract representation of a Scene file."""
     def __init__(self, path=None):
